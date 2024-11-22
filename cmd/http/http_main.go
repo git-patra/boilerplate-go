@@ -1,9 +1,9 @@
 package main
 
 import (
+	"boilerplate-go/config"
+	"boilerplate-go/internal/app/server"
 	"go.mongodb.org/mongo-driver/mongo"
-	"mmp/config"
-	"mmp/internal/app/server"
 
 	"log"
 )

@@ -1,4 +1,4 @@
-module mmp
+module boilerplate-go
 
 go 1.23.3
 

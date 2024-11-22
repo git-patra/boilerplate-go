@@ -1,10 +1,10 @@
 package main
 
 import (
+	"boilerplate-go/config"
+	"boilerplate-go/internal/app/database"
 	"github.com/sirupsen/logrus"
 	"log"
-	"mmp/config"
-	"mmp/internal/app/database"
 	"sync"
 )
 

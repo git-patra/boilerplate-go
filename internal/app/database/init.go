@@ -1,12 +1,12 @@
 package database
 
 import (
+	"boilerplate-go/config"
 	"context"
 	"fmt"
 	"github.com/sirupsen/logrus"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
-	"mmp/config"
 	"time"
 )
 

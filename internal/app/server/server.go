@@ -1,14 +1,14 @@
 package server
 
 import (
+	customMiddleware "boilerplate-go/api/middleware"
+	"boilerplate-go/api/routes"
+	"boilerplate-go/config"
 	"fmt"
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/chi/v5/middleware"
 	"github.com/sirupsen/logrus"
 	"go.mongodb.org/mongo-driver/mongo"
-	customMiddleware "mmp/api/middleware"
-	"mmp/api/routes"
-	"mmp/config"
 	"net/http"
 )
 

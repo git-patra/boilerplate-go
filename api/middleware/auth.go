@@ -1,7 +1,7 @@
 package middleware
 
 import (
-	"mmp/config"
+	"boilerplate-go/config"
 	"net/http"
 	"strings"
 )

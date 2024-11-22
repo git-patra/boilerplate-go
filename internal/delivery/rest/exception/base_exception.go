@@ -1,10 +1,10 @@
 package exception
 
 import (
+	"boilerplate-go/internal/delivery/rest/response"
 	"context"
 	"fmt"
 	"github.com/sirupsen/logrus"
-	"mmp/internal/delivery/rest/response"
 	"net/http"
 	"runtime/debug"
 )

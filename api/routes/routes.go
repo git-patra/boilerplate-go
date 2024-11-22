@@ -1,11 +1,11 @@
 package routes
 
 import (
+	"boilerplate-go/api/middleware"
+	"boilerplate-go/config"
+	"boilerplate-go/internal/delivery/rest/response"
 	"github.com/go-chi/chi/v5"
 	"go.mongodb.org/mongo-driver/mongo"
-	"mmp/api/middleware"
-	"mmp/config"
-	"mmp/internal/delivery/rest/response"
 	"net/http"
 )
 
